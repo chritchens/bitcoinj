@@ -27,8 +27,8 @@ import org.junit.*;
 
 import java.math.BigInteger;
 import java.util.*;
-import static org.bitcoinj.core.Utils.HEX;
 
+import static org.bitcoinj.core.Utils.HEX;
 import static org.easymock.EasyMock.*;
 import static org.junit.Assert.*;
 

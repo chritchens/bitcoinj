@@ -92,7 +92,7 @@ public class Transaction extends ChildMessage {
     /** Same but as a BigInteger for CHECKLOCKTIMEVERIFY */
     public static final BigInteger LOCKTIME_THRESHOLD_BIG = BigInteger.valueOf(LOCKTIME_THRESHOLD);
 
-    /** How many bytes a transaction can be before it won't be relayed anymore. Currently 100kb. */
+    /** How many bytes a transaction can be before it won't be relayed anymore. Currently 1MB. */
     public static final int MAX_STANDARD_TX_SIZE = 100000;
 
     /**
